@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -104,7 +103,7 @@ public class Main {
 
 
         //Orders
-        OrderRepo orderRepo = new OrderRepo();
+        OrderListRepo orderListRepo = new OrderListRepo();
 
         // Create some orders
         OrderRecord order1 = new OrderRecord(
@@ -128,15 +127,15 @@ public class Main {
         //orderRepo.addOrder(order2);
         // Print all orders
         System.out.println("All Orders:");
-        for (OrderRecord order : orderRepo.getOrders()) {
+        for (OrderRecord order : orderListRepo.getOrders()) {
             System.out.println(order);
         }
-        System.out.println("Order id 1002 =" + orderRepo.findById("1002"));
+        System.out.println("Order id 1002 =" + orderListRepo.findById("1002"));
 
-        orderRepo.addOrders(Arrays.asList(order1, order2));
+        orderListRepo.addOrders(Arrays.asList(order1, order2));
 
         System.out.println("All Orders:");
-        for (OrderRecord order : orderRepo.getOrders()) {
+        for (OrderRecord order : orderListRepo.getOrders()) {
             System.out.println(order);
         }
     }

@@ -11,12 +11,3 @@ public record ProductRecord(
         String imageUrl
 ) {}
 
-
-//public record ProductRecap(
-//        String id,
-//        String name,
-//        String brand,
-//        double price,
-//        int stockQuantity,
-//        String description
-//) {}
