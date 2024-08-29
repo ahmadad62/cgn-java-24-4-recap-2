@@ -88,7 +88,7 @@ public class Main {
         );
 
         //ProductRepo Test
-        List<ProductRecord> products = Arrays.asList(samsungA10,samsungA20,iphon10,iphon15,nokia6600,xiaomiNote);
+        List<ProductRecord> products = Arrays.asList(samsungA10, samsungA20, iphon10, iphon15, nokia6600, xiaomiNote);
 
         ProductRepo productRepo = new ProductRepo();
         productRepo.addProducts(products);
@@ -103,5 +103,41 @@ public class Main {
         System.out.println("Product Repo after update: " + productRepo.getSize());
 
 
+        //Orders
+        OrderRepo orderRepo = new OrderRepo();
+
+        // Create some orders
+        OrderRecord order1 = new OrderRecord(
+                "1001",
+                "C001",
+                List.of("SamsungK10", "SamsungA10"),
+                1599.98,
+                "2024-08-29",
+                "Pending"
+        );
+        OrderRecord order2 = new OrderRecord(
+                "1002",
+                "C002",
+                List.of("nokia6600"),
+                399.99,
+                "2024-08-28",
+                "Shipped"
+        );
+        //add order to the repo
+        //orderRepo.addOrder(order1);
+        //orderRepo.addOrder(order2);
+        // Print all orders
+        System.out.println("All Orders:");
+        for (OrderRecord order : orderRepo.getOrders()) {
+            System.out.println(order);
+        }
+        System.out.println("Order id 1002 =" + orderRepo.findById("1002"));
+
+        orderRepo.addOrders(Arrays.asList(order1, order2));
+
+        System.out.println("All Orders:");
+        for (OrderRecord order : orderRepo.getOrders()) {
+            System.out.println(order);
+        }
     }
 }

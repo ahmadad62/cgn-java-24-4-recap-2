@@ -11,6 +11,7 @@ public class ProductRepo {
         this.products = new ArrayList<>();
     }
 
+
     //add new a new product with quantity 1 or more
     public void addProduct(ProductRecord product) {
         int indexOfProduct= this.products.indexOf(product);

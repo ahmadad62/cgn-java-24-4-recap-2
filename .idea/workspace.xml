@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fd83f6e-b807-4f09-9b9e-89bf175d6f8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="7fd83f6e-b807-4f09-9b9e-89bf175d6f8b" name="Changes" comment="add ProductRepo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderRecord.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,17 +21,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ahmadad62&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ahmadad62/cgn-java-24-4-recap-2.git&quot;,
+    &quot;accountId&quot;: &quot;123c73f0-5531-43aa-8b0a-fd4749c13fdb&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lKIy60xDiZR2Ty5e6KinPVoFgc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,9 +64,30 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/ahmadalinaghian/Documents/java/cgn-java-24-4-recap-2/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="cgn-java-24-4-recap-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,19 +104,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724922596247</updated>
-      <workItem from="1724922597394" duration="9517000" />
+      <workItem from="1724922597394" duration="11804000" />
+      <workItem from="1724935074995" duration="4301000" />
     </task>
+    <task id="LOCAL-00001" summary="add ProductRepo">
+      <option name="closed" value="true" />
+      <created>1724932673534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724932673534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add ProductRepo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ProductRepo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>105</line>
+          <line>141</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
